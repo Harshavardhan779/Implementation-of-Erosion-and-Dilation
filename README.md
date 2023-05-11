@@ -24,7 +24,7 @@ Plot the images using plt.imshow.
 ## Program:
 ## Developed by: Harsha vardhan
 ## Register no: 212222240114
-# Import the necessary packages
+### Import the necessary packages
 ```python
 import cv2
 import numpy as np
