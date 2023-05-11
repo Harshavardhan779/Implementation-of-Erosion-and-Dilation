@@ -30,7 +30,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 ```
-# Create the Text using cv2.putText
+### Create the Text using cv2.putText
 ```python
 
 text_image = np.zeros((100,440),dtype = 'uint8')
@@ -41,13 +41,13 @@ plt.imshow(text_image,'magma')
 plt.axis('off')
 
 ```
-# Create the structuring element
+### Create the structuring element
 ```python
 
 kernel = cv2.getStructuringElement(cv2.MORPH_CROSS,(7,7))
 
 ```
-# Erode the image
+### Erode the image
 
 
 ```python
@@ -58,7 +58,7 @@ plt.imshow(image_erode,'magma')
 plt.axis('off')
 
 ```
-# Dilate the image
+### Dilate the image
 
 ```python
 
